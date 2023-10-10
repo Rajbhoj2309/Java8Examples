@@ -1,0 +1,24 @@
+default and static methods in Interfaces
+Before Java8  we declare only abstract methods in an interface and its affect every implemented classes.
+The most important use of default methods in interface is to provide additional functionality
+to giventype without breaking down the implementing classes.
+
+if we are using @FunctionalInterface this interface not any abstract method then compile time error show
+Functional_Interface is not a functional interface because 
+functional interface has only one abstract method
+
+static method similar as to default method 
+so static method can not be override in a implemented classes
+we can call by static method >> InterfaceName.methodName()
+static method load at compile time thats why we can not override static method.
+
+
+difference between Interface and abstact class
+In java 8 interface it is stateless means any fields, variable defined in interface 
+jvm by default created public static final 
+i.e we can not be change its value
+In an interface we can create abstact() as well as default() and static()
+
+An abstract class is stateful means variable declared in abstract class we can change value
+abstract class have a constructor to initialized variable but we can not created object of abstract class
+bcoz abstract method does not have any body.
