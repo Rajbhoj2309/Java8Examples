@@ -6,4 +6,10 @@ public interface Functional_Interface2 {
 //	Functional_Interface2 is not a functional interface because 
 // functional interface has only one abstract method
 	void method1(String str);
+	default void log(String str){
+		System.out.println("I2 logging::"+str);
+	}
+	static void print(String str){
+		System.out.println("Printing Functional_Interface2 "+str);
+	}
 }
