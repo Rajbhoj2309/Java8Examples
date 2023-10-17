@@ -14,4 +14,6 @@ public interface Functional_Interface1 {
 	static void print(String str){
 		System.out.println("Printing Functional_Interface1 "+str);
 	}
+	
+	
 }
