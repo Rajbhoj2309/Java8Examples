@@ -1,0 +1,8 @@
+Why do we need Lambda Expression
+Reduced Lines of Code One of the clear benefit of using lambda expression
+ is that the amount of code is reduced.
+we can create instance of a functional interface using lambda expression rather than using anonymous class.
+
+Sequential and Parallel Execution Support Another benefit of using lambda expression
+ is that we can benefit from the Stream API sequential and parallel operations 
+ support.
